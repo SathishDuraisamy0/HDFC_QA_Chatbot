@@ -1,5 +1,4 @@
 # HDFC Credit Card Q&A Chatbot
-Project Summary
 Description:
 A conversational chatbot built using Python, Streamlit, and LangChain that answers questions related to HDFC credit cards. 
 The data is automatically pulled using web scraping from the official HDFC Bank credit card pages. 
