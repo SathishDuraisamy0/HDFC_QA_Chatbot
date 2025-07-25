@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 import os
 
 # Load environment variables
-load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-HF_TOKEN = os.getenv("HF_TOKEN")
+
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+HF_TOKEN = st.secrets["HF_TOKEN"]
 
 @st.cache_resource
 def load_vectorstore():
