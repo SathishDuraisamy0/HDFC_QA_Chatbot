@@ -21,7 +21,7 @@ def load_vectorstore():
         embeddings,
         allow_dangerous_deserialization=True
     )
-    return vectorstore.as_retriever(search_kwargs={"k": 3})
+    return vectorstore.as_retriever(search_kwargs={"k": 20})
 
 @st.cache_resource
 def create_qa_chain():
