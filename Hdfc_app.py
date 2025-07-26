@@ -49,8 +49,8 @@ def create_qa_chain():
 
 # Main App
 def main():
-    st.set_page_config(page_title="HDFC Credit Card Chatbot 💳", layout="centered")
-    st.title("💳 HDFC Credit Card Q&A Chatbot")
+    st.set_page_config(page_title="HDFC Products Chatbot 💳", layout="centered")
+    st.title("💳 HDFC Products Q&A Chatbot")
 
     # Initialize session state for chat history
     if "history" not in st.session_state:
